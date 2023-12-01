@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 // app.use(cors())
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://researchinternetpoint.onrender.com',
     credentials: true, // Allow sending cookies and other credentials
 }));
 app.use(cookieParsar());
